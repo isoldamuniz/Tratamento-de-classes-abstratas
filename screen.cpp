@@ -1,10 +1,11 @@
 #include "screen.h"
 
 Screen::Screen(int numlin, int numcol){
-    this->numlin = numlin;
-    this->numcol = numcol;
+        this->numlin = numlin;
+        this->numcol = numcol;
 
-    mat = vector< vector<char> > (numlin, vector<char> (numcol, ' '));
+        mat = vector< vector<char> > (numlin, vector<char> (numcol, ' '));
+
 }
 
 void Screen::setPixel(int x, int y){

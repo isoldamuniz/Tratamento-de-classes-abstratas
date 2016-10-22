@@ -12,6 +12,7 @@ void Circulo::draw(Screen &t){
     int dx=0;
     int dy = raio - 1;
 
+
     while(dx <= dy){
         t.setPixel(x0+dy,y0-dx);
         t.setPixel(x0+dx,y0-dy);

@@ -5,9 +5,7 @@ Reta::Reta(int x1, int y1, int x2, int y2){
     this->x1=x1; this->y1=y1; this->x2=x2; this->y2=y2;
 }
 
-void Reta::draw(Screen &t){ //ajeitar o eixo x e o eixo y, estao trocados
-
-
+void Reta::draw(Screen &t){ //ajeitar o eixo x e o eixo y, estao trocado
     int dx, dy, dxabs, dyabs, sdx, sdy, px, py;
     float inclinacao;
 

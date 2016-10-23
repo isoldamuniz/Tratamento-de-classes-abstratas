@@ -69,7 +69,7 @@ int main()
         Figuras[i]->draw(Tela);
     }
     cout << Tela;
-    fout.open(   "C:\\saida.txt"   );
+    fout.open(   "C:\\out.txt"   );
     if(!fout.is_open()){
         cout << "erro\n";
     }
@@ -77,4 +77,5 @@ int main()
         fout << Tela;
       }
     fout.close();
+
 }
